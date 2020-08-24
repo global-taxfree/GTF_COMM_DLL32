@@ -1,0 +1,10 @@
+; GTF_COMM_DLL32.def : Declares the module parameters for the DLL.
+
+LIBRARY      "GTF_COMM_DLL32"
+DESCRIPTION  'GTF_COMM_DLL32 Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+	GTF_RequestApproval			@1
+	GTF_SetOffLineMode			@2
